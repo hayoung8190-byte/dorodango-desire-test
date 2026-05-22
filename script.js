@@ -5,23 +5,23 @@ const questions = [
     {text:"쇼핑 추천, 할인, 신상 리뷰", add:{consumption:2, algorithm:1}},
     {text:"딱히 없음. 그냥 넘김", add:{fatigue:1}}
   ]},
-  { q:"왜 그 콘텐츠에서 멈췄어?", options:[
+  { q:"왜 그 콘텐츠에서 멈췄나요?", options:[
     {text:"예쁘고 좋아 보여서", add:{validation:1, comparison:1}},
-    {text:"나도 저렇게 되고 싶어서", add:{validation:2, comparison:2}},
+    {text:"따라하고 싶어서", add:{validation:2, comparison:2}},
     {text:"계속 뜨니까 보게 돼서", add:{algorithm:2}},
     {text:"이상하게 신경 쓰여서", add:{anxiety:1, fatigue:1}}
   ]},
-  { q:"그걸 보면 어떤 감정이 제일 커져?", options:[
-    {text:"불안함", add:{anxiety:3}},
-    {text:"부러움", add:{comparison:3}},
-    {text:"공허함", add:{emptiness:3}},
+  { q:"그걸 보면 어떤 감정이 제일 커지나요?", options:[
+    {text:"동경", add:{anxiety:3}},
+    {text:"지금의 나를 바꾸고싶음", add:{comparison:3}},
+    {text:"호기심", add:{emptiness:3}},
     {text:"갖고 싶음", add:{consumption:3}}
   ]},
-  { q:"그 사람/물건/장면에서 뭐가 제일 부러워?", options:[
-    {text:"외모와 분위기", add:{validation:2, comparison:1}},
-    {text:"돈과 여유", add:{comparison:2, consumption:1}},
-    {text:"사람들에게 인정받는 느낌", add:{validation:3}},
-    {text:"그냥 아무 걱정 없어 보이는 점", add:{anxiety:2, emptiness:1}}
+  { q:,"나도 모르게 오래 보게 되는 광고는?" options:[
+    {text:"사고 싶게 만드는 광고", add:{validation:2, comparison:1}},
+    {text:"댓글 반응이 폭발하는 광고", add:{comparison:2, consumption:1}},
+    {text:"이상하게 자꾸 다시 뜨는 광고", add:{validation:3}},
+    {text:"평소에 관심이 있던 물건의 광고", add:{anxiety:2, emptiness:1}}
   ]},
   { q:"나도 저렇게 되고 싶다고 느껴?", options:[
     {text:"많이 느껴", add:{validation:2, comparison:2, consumption:1}},
@@ -30,10 +30,10 @@ const questions = [
     {text:"거의 안 느껴", add:{fatigue:1}}
   ]},
   { q:"사람들이 너를 어떻게 봤으면 좋겠어?", options:[
-    {text:"세련된 사람", add:{validation:2}},
+    {text:"괜히 계속 눈이 가는 사람", add:{validation:2}},
     {text:"예쁜/멋진 사람", add:{validation:3}},
-    {text:"성공한 사람", add:{validation:2, comparison:1}},
-    {text:"그냥 나답게 봤으면 좋겠어", add:{fatigue:1}}
+    {text:"남들이 좋아할 것 같은 사람", add:{validation:2, comparison:1}},
+    {text:"그냥 나답게 봤으면 좋겠음", add:{fatigue:1}}
   ]},
   { q:"그걸 가지면 뭐가 달라질 것 같아?", options:[
     {text:"덜 불안할 것 같아", add:{anxiety:2}},
@@ -50,7 +50,7 @@ const questions = [
   { q:"광고가 계속 뜨면 어떻게 해?", options:[
     {text:"결국 눌러본다", add:{algorithm:2, consumption:1}},
     {text:"저장해둔다", add:{consumption:2}},
-    {text:"피곤해서 넘긴다", add:{fatigue:2}},
+    {text:"넘긴다", add:{fatigue:2}},
     {text:"숨김/차단한다", add:{fatigue:3}}
   ]},
   { q:"결국 사고 나면 오래 만족해?", options:[
