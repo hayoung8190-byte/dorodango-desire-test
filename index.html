@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>당신을 위한 욕망구</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section id="intro" class="card intro">
+      <p class="eyebrow">DORODANGO DESIRE TEST</p>
+      <h1>당신을 위한<br><span>욕망구</span></h1>
+      <p class="lead">
+        몇 가지 선택을 통해 당신의 욕망 데이터를 분석하고,
+        하나의 도로당고 상품으로 추천합니다.
+      </p>
+      <button id="startBtn" class="primary">시작하기</button>
+    </section>
+
+    <section id="quiz" class="card hidden">
+      <div class="progress">
+        <span id="stepText">1 / 10</span>
+        <div class="bar"><div id="barFill"></div></div>
+      </div>
+      <h2 id="questionTitle"></h2>
+      <div id="options" class="options"></div>
+    </section>
+
+    <section id="result" class="card result hidden">
+      <p class="eyebrow">YOUR RECOMMENDED PRODUCT</p>
+      <div id="dangoVisual" class="dango"></div>
+      <h2 id="resultName"></h2>
+      <p id="resultDesc" class="lead"></p>
+
+      <div class="specs">
+        <div><b>색</b><span id="specColor"></span></div>
+        <div><b>광택</b><span id="specGloss"></span></div>
+        <div><b>표면</b><span id="specTexture"></span></div>
+        <div><b>크기</b><span id="specSize"></span></div>
+      </div>
+
+      <div class="shop-box">
+        <p class="tag">오늘의 추천 문구</p>
+        <p id="resultCopy"></p>
+        <button class="fake-buy">장바구니에 담기</button>
+      </div>
+
+      <button id="restartBtn" class="secondary">다시 만들기</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
