@@ -24,10 +24,10 @@ const questions = [
     {text:"평소에 관심이 있던 물건의 광고", add:{anxiety:2, emptiness:1}}
   ]},
   { q:"나도 저렇게 되고 싶다고 느껴?", options:[
-    {text:"많이 느껴", add:{validation:2, comparison:2, consumption:1}},
-    {text:"조금 느껴", add:{validation:1, comparison:1}},
-    {text:"가끔 피곤해져", add:{fatigue:2}},
-    {text:"거의 안 느껴", add:{fatigue:1}}
+    {text:"많이 느낌", add:{validation:2, comparison:2, consumption:1}},
+    {text:"조금 느낌", add:{validation:1, comparison:1}},
+    {text:"그냥 피곤하게 느껴짐", add:{fatigue:2}},
+    {text:"거의 안 느낌", add:{fatigue:1}}
   ]},
   { q:"사람들이 너를 어떻게 봤으면 좋겠어?", options:[
     {text:"괜히 계속 눈이 가는 사람", add:{validation:2}},
@@ -35,23 +35,23 @@ const questions = [
     {text:"남들이 좋아할 것 같은 사람", add:{validation:2, comparison:1}},
     {text:"그냥 나답게 봤으면 좋겠음", add:{fatigue:1}}
   ]},
-  { q:"그걸 가지면 뭐가 달라질 것 같아?", options:[
-    {text:"덜 불안할 것 같아", add:{anxiety:2}},
-    {text:"인정받을 것 같아", add:{validation:2}},
-    {text:"남들보다 뒤처지지 않을 것 같아", add:{comparison:2, anxiety:1}},
-    {text:"잠깐 기분이 좋아질 것 같아", add:{consumption:2, emptiness:1}}
+  { q:"그 광고 속 물건을 가지면 뭐가 달라질 것 같아?", options:[
+    {text:"고민이 해결될 것 같음", add:{anxiety:2}},
+    {text:"일상이 편해짐", add:{validation:2}},
+    {text:"유행을 따라갈 수 있음", add:{comparison:2, anxiety:1}},
+    {text:"기분이 좋아질 것 같음", add:{consumption:2, emptiness:1}}
   ]},
   { q:"실제로 그걸 위해 사고 싶은 게 있어?", options:[
     {text:"옷이나 패션 소품", add:{consumption:2, validation:1}},
     {text:"화장품/관리 제품", add:{consumption:2, validation:1}},
     {text:"전자기기나 인테리어 소품", add:{consumption:2, comparison:1}},
-    {text:"딱히 없지만 계속 보게 돼", add:{algorithm:2, fatigue:1}}
+    {text:"딱히 없지만 계속 보게 됨", add:{algorithm:2, fatigue:1}}
   ]},
   { q:"광고가 계속 뜨면 어떻게 해?", options:[
-    {text:"결국 눌러본다", add:{algorithm:2, consumption:1}},
-    {text:"저장해둔다", add:{consumption:2}},
-    {text:"그냥 넘긴다", add:{fatigue:2}},
-    {text:"숨김/차단한다", add:{fatigue:3}}
+    {text:"결국 눌러봄", add:{algorithm:2, consumption:1}},
+    {text:"저장해둠", add:{consumption:2}},
+    {text:"그냥 넘김", add:{fatigue:2}},
+    {text:"숨김/차단", add:{fatigue:3}}
   ]},
   { q:"결국 사고 나면 오래 만족해?", options:[
     {text:"오래 만족한다", add:{validation:1}},
