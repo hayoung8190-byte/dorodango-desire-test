@@ -17,7 +17,7 @@ const questions = [
     {text:"호기심", add:{emptiness:3}},
     {text:"갖고 싶음", add:{consumption:3}}
   ]},
-  { q:,"나도 모르게 오래 보게 되는 광고는?" options:[
+  { q:,"나도 모르게 오래 보게 되는 광고는?", options:[
     {text:"사고 싶게 만드는 광고", add:{validation:2, comparison:1}},
     {text:"댓글 반응이 폭발하는 광고", add:{comparison:2, consumption:1}},
     {text:"이상하게 자꾸 다시 뜨는 광고", add:{validation:3}},
