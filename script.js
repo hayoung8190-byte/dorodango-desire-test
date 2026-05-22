@@ -50,7 +50,7 @@ const questions = [
   { q:"광고가 계속 뜨면 어떻게 해?", options:[
     {text:"결국 눌러본다", add:{algorithm:2, consumption:1}},
     {text:"저장해둔다", add:{consumption:2}},
-    {text:"넘긴다", add:{fatigue:2}},
+    {text:"그냥 넘긴다", add:{fatigue:2}},
     {text:"숨김/차단한다", add:{fatigue:3}}
   ]},
   { q:"결국 사고 나면 오래 만족해?", options:[
