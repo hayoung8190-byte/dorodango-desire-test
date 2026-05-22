@@ -142,13 +142,13 @@ function showResult(){
 
 function getResultData(key){
   const map = {
-    validation:{name:"보여지기 좋은 구슬", color:"#d9e8c3", colorText:"파스텔 연두 + 반사광", desc:"타인의 시선 앞에서 더 매끈해지고 싶어 하는 욕망이 광택으로 굳어진 도로당고입니다.", copy:"남들이 보는 나를 조금 더 반짝이게 해드립니다."},
-    comparison:{name:"남의 삶 반사구", color:"#cbb7e8", colorText:"연보라 + 차가운 그림자", desc:"비교의 시선이 표면에 남아, 볼수록 다른 사람의 삶을 비추는 도로당고입니다.", copy:"나보다 좋아 보이는 삶을 오래 반사합니다."},
-    anxiety:{name:"조급한 붉은 공", color:"#e78f86", colorText:"흐린 붉은색", desc:"놓치면 뒤처질 것 같은 감각이 압축된 도로당고입니다. 표면 아래 작은 긴장이 남아 있습니다.", copy:"오늘만, 지금만, 놓치면 안 될 것 같은 기분을 담았습니다."},
-    consumption:{name:"장바구니의 달", color:"#f1d77b", colorText:"부드러운 노랑 + 흙빛", desc:"사기 전의 설렘이 가장 크게 남아 있는 도로당고입니다.", copy:"결제 직전의 반짝임을 오래 보관하세요."},
-    algorithm:{name:"추천된 욕망구", color:"#c7e6b1", colorText:"연두색 + 반복 무늬", desc:"계속 보여졌기 때문에 가까워진 욕망이 둥글게 굳어진 결과입니다.", copy:"당신이 좋아할 가능성이 높은 욕망입니다."},
-    fatigue:{name:"닳아버린 취향", color:"#bfc7b8", colorText:"회녹색 무광", desc:"너무 많이 추천되고 너무 자주 반복되어 표면이 조용히 닳아버린 도로당고입니다.", copy:"더 이상 새롭지 않은 새로움을 담았습니다."},
-    emptiness:{name:"속이 빈 만족", color:"#d2d2c8", colorText:"흐린 회색", desc:"갖고 싶었지만 막상 가진 뒤에는 오래 남지 않는 감각이 만든 도로당고입니다.", copy:"채운 것 같지만 다시 비어 있는 기분을 제공합니다."}
+    validation:{name:"인정 욕망형", color:"#d9e8c3", colorText:"파스텔 연두 + 반사광", desc:"타인의 시선 앞에서 더 매끈해지고 싶어 하는 욕망이 광택으로 굳어진 도로당고입니다.", copy:"남들이 보는 나를 조금 더 반짝이게 해드립니다."},
+    comparison:{name:"비교 반응형", color:"#cbb7e8", colorText:"연보라 + 차가운 그림자", desc:"비교의 시선이 표면에 남아, 볼수록 다른 사람의 삶을 비추는 도로당고입니다.", copy:"나보다 좋아 보이는 삶을 오래 반사합니다."},
+    anxiety:{name:"불안 반응형", color:"#e78f86", colorText:"흐린 붉은색", desc:"놓치면 뒤처질 것 같은 감각이 압축된 도로당고입니다. 표면 아래 작은 긴장이 남아 있습니다.", copy:"오늘만, 지금만, 놓치면 안 될 것 같은 기분을 담았습니다."},
+    consumption:{name:"소비 충동형", color:"#f1d77b", colorText:"부드러운 노랑 + 흙빛", desc:"사기 전의 설렘이 가장 크게 남아 있는 도로당고입니다.", copy:"결제 직전의 반짝임을 오래 보관하세요."},
+    algorithm:{name:"알고리즘 영향형", color:"#c7e6b1", colorText:"연두색 + 반복 무늬", desc:"계속 보여졌기 때문에 가까워진 욕망이 둥글게 굳어진 결과입니다.", copy:"당신이 좋아할 가능성이 높은 욕망입니다."},
+    fatigue:{name:"자극 피로형", color:"#bfc7b8", colorText:"회녹색 무광", desc:"너무 많이 추천되고 너무 자주 반복되어 표면이 조용히 닳아버린 도로당고입니다.", copy:"더 이상 새롭지 않은 새로움을 담았습니다."},
+    emptiness:{name:"순간 만족형", color:"#d2d2c8", colorText:"흐린 회색", desc:"갖고 싶었지만 막상 가진 뒤에는 오래 남지 않는 감각이 만든 도로당고입니다.", copy:"채운 것 같지만 다시 비어 있는 기분을 제공합니다."}
   };
   return map[key];
 }
